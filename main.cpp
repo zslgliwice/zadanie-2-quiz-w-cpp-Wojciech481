@@ -37,16 +37,83 @@ int main()
     cin >> odp;
     if(odp == "b")
     {
-        cout << "Poprawna odpowiedz!";
+        cout << "Poprawna odpowiedz!"<<endl;
         pkt++;
     }
     else
     {
-        cout << "Zle! Jest to jezyk programowania!";
+        cout << "Zle! Jest to jezyk programowania!"<<endl;
 
     }
-    Sleep(3000);
-    system("cls");
+
+    Sleep(1000);
+
+
+   cout<<"Kto byl pierwszym prezydentem Stanow Zjednoczonych?"<<endl;
+   cout<<"a) Benjamin Franklin"<<endl;
+   cout<<"b) Thomas Jefferson"<<endl;
+   cout<<"c) George Washington"<<endl;
+   cin>>odp;
+   if(odp=="c"){
+       cout<<"Poprawna odpowiedz!"<<endl;
+       pkt++;
+   }else{
+       cout << "Zle! Jest to odp c"<<endl;
+   }
+    Sleep(1000);
+
+
+    cout<<"Jak nazywa sie proces, w ktorym rosliny przekształcaja swiatlo sloneczne na energię chemiczna?"<<endl;
+    cout<<"a) Fotosynteza"<<endl;
+    cout<<"b) Fermentacja"<<endl;
+    cout<<"c) Dekarboksylacja"<<endl;
+    cin>>odp;
+    if(odp=="a"){
+        cout<<"Poprawna odpowiedz!"<<endl;
+        pkt++;
+    }else{
+        cout << "Zle! Jest to odp a"<<endl;
+    }
+    Sleep(1000);
+    cout<<"Ktoóry z tych autorow napisał Romea i Julie?"<<endl;
+    cout<<"a) Charles Dickens"<<endl;
+    cout<<"b) William Shakespeare"<<endl;
+    cout<<"c) Jane Austen"<<endl;
+    cin>>odp;
+    if(odp=="b"){
+        cout<<"Poprawna odpowiedz!"<<endl;
+        pkt++;
+    }else{
+        cout << "Zle! Jest to odp b"<<endl;
+    }
+    Sleep(1000);
+    cout<<"Jaki kontynent jest najwiekszy pod wzgledem powierzchni?"<<endl;
+    cout<<"a) Europa"<<endl;
+    cout<<"b) Afryka"<<endl;
+    cout<<"c) Azja"<<endl;
+    cin>>odp;
+    if(odp=="c"){
+        cout<<"Poprawna odpowiedz!"<<endl;
+        pkt++;
+    }else{
+        cout << "Zle! Jest to odp c"<<endl;
+    }
+    Sleep(1000);
+    cout<<"W jakim sporcie druzyna probuje zdobyc punkty, przesuwając pilke przez bramke rywala?"<<endl;
+    cout<<"a) Baseball"<<endl;
+    cout<<"b) Koszykówka"<<endl;
+    cout<<"c) Piłka nożna"<<endl;
+    cin>>odp;
+    if(odp=="c"){
+        cout<<"Poprawna odpowiedz!"<<endl;
+        pkt++;
+    }else{
+        cout << "Zle! Jest to odp c"<<endl;
+    }
+    Sleep(1000);
+
+    cout<<"Liczba punktow: "<<pkt;
+
 
 
 
